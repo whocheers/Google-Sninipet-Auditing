@@ -7,8 +7,7 @@ import multiprocessing
 from bs4 import BeautifulSoup
 from datetime import datetime
 import itertools
-# Custom modules
-#import parse_html #10_28_e8986
+
 OUT_RESULTS = '/home/deshenghu/search-text/new-dataset/start_parse_and_cal/parse_html_mp/date_10_30_data_parse_html_output_872b/json_dir'
 TXT_RESULTS = '/home/deshenghu/search-text/new-dataset/start_parse_and_cal/parse_html_mp/date_10_30_data_parse_html_output_872b/txt_dir'
 os.makedirs(OUT_RESULTS, exist_ok=True)
